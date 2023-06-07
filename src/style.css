@@ -1,5 +1,18 @@
+:root {
+  --primary-color: #1f5122;
+}
 .fancy-font {
   font-family: "Dancing Script", cursive;
   font-size: 25px;
-  color: #1f5122;
+}
+.green-font {
+  color: var(--primary-color);
+}
+.email-link {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+.email-link:hover {
+  text-decoration: underline;
+  font-weight: 500;
 }
