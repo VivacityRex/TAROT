@@ -33,3 +33,15 @@ body {
 .text-container {
   margin-bottom: 1.5em;
 }
+.service-link {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+.service-link:hover {
+  text-decoration: underline;
+  color: var(--primary-color);
+}
+.service-link.active {
+  color: var(--primary-color);
+  font-size: larger;
+}
