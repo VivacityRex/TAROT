@@ -26,7 +26,272 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="src/style.css" />
-    <title>About - tarot</title>
+    <script src="src/script.js"></script>
+    <title>Danielle Bouchard</title>
   </head>
-  <body style="background-image: url(images/close-up-leaf.png)"></body>
+  <body
+    style="
+      background-image: linear-gradient(
+        to bottom,
+        #ffffff,
+        #f8fdff,
+        #ebfcff,
+        #dcfdff,
+        #d3fdf4,
+        #c1eddc,
+        #b4ddc2,
+        #aacca7,
+        #86ac83,
+        #638c61,
+        #416e41,
+        #1f5122
+      );
+    "
+  >
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          Danielle Bouchard
+          <i
+            class="fa-brands fa-pagelines fa-beat-fade ps-4 pe-3"
+            style="color: #1f5122"
+          ></i>
+          <span class="fancy-font green-font"> Médium </span>
+        </a>
+        <div
+          class="collapse navbar-collapse order-lg-1"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Accueil</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">À propos de moi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html#contact">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html#contact">Témoignages</a>
+            </li>
+          </ul>
+        </div>
+        <button
+          class="navbar-toggler order-lg-2"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+    <!--NAVBAR-->
+    <!--ABOUT ME--->
+
+    <div class="container d-flex justify-content-center large-margin-top mb-5">
+      <div class="card shadow">
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-sm-3">
+                <img
+                  src="images/sun-through-trees.jpg"
+                  class="img-fluid"
+                  alt="Trees"
+                />
+              </div>
+              <div class="col-sm-9">
+                <h5
+                  class="card-title green-font fancy-font d-flex justify-content-center pt-3 fs-2"
+                  id="about-me"
+                >
+                  À propos de moi
+                </h5>
+                <p class="card-text pt-3 text-center mb-3">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  at augue nec mi eleifend eleifend. Aenean interdum ante ac
+                  varius sagittis. Quisque venenatis est at dui ultrices semper.
+                  Nullam elementum, ipsum vitae rhoncus consectetur, nunc metus
+                  aliquam mauris, et maximus arcu mi vel nibh. Nulla consectetur
+                  velit at lacus fermentum, sed ultricies nunc tempor. Nulla
+                  facilisi. Morbi faucibus nulla eget ligula pellentesque, a
+                  dictum ligula dapibus. Phasellus eget velit eu urna lacinia
+                  efficitur. Cras fringilla metus vitae sagittis interdum. Fusce
+                  rutrum ex non metus feugiat, in tempus nisi varius. Quisque
+                  tempus, sem id condimentum rutrum, metus urna rhoncus turpis,
+                  et pulvinar elit sem a orci. Praesent eu diam non risus
+                  vulputate condimentum. Quisque vel nisi nec ligula lobortis
+                  auctor vitae a lacus. Etiam elementum mauris sit amet velit
+                  hendrerit interdum.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--ABOUT ME-->
+    <!--IMAGE-->
+    <div class="container-fluid" style="width: 50%">
+      <div class="card">
+        <img
+          src="images/mist-mountain-trees.jpg"
+          class="card-img-top img-fluid shadow"
+          alt="Image"
+        />
+      </div>
+    </div>
+    <!--IMAGE-->
+    <!--QUOTE-->
+    <div class="container-fluid mt-5" style="width: 80%">
+      <div class="card p-4 shadow" style="background-color: transparent">
+        <blockquote class="blockquote">
+          <p class="mb-0 text-center">
+            The only thing that separates us from the spirits is the veils of
+            ignorance, fear, and disbelief. As a medium, I aim to tear down
+            those veils and bridge the gap between the physical and spiritual
+            realms
+          </p>
+          <footer class="blockquote-footer mt-2 text-center">
+            John Edward <cite title="Source Title">Medium</cite>
+          </footer>
+        </blockquote>
+      </div>
+    </div>
+    <!--QUOTE-->
+    <!--TESTIMONIAL-->
+    <div class="container mt-5" id="Testimonials">
+      <div class="card mb-4 shadow">
+        <div class="card-body">
+          <hr class="m-5" />
+          <h5 class="card-title text-center green-font fs-3">Témoignages</h5>
+          <hr class="m-5" />
+        </div>
+      </div>
+      <div class="card mb-5 shadow p-3">
+        <div class="card-body">
+          <div class="testimonial">
+            <h6 class="fancy-font text-center p-3">John Doe</h6>
+            <p class="text-center">
+              "I had an amazing reading with [Your Name]. Their accuracy and
+              insights were truly remarkable. I highly recommend their
+              services."
+            </p>
+            <i
+              class="fa-brands fa-pagelines ps-4 pe-3 d-flex justify-content-center mt-5"
+              style="color: #1f5122"
+            ></i>
+            <hr class="m-5" />
+          </div>
+          <div class="testimonial">
+            <h6 class="fancy-font text-center p-3">Jane Smith</h6>
+            <p class="text-center">
+              "I've been to many mediums before, but [Your Name] stood out from
+              the rest. Their ability to connect with spirits and deliver
+              meaningful messages was incredible."
+            </p>
+            <i
+              class="fa-brands fa-pagelines ps-4 pe-3 d-flex justify-content-center mt-5"
+              style="color: #1f5122"
+            ></i>
+            <hr class="m-5" />
+          </div>
+          <div class="testimonial">
+            <h6 class="fancy-font text-center p-3">David Johnson</h6>
+            <p class="text-center">
+              "[Your Name] has a genuine gift. Their readings provided me with
+              clarity and guidance, and I couldn't be more grateful for the
+              experience."
+            </p>
+            <i
+              class="fa-brands fa-pagelines ps-4 pe-3 d-flex justify-content-center mt-5"
+              style="color: #1f5122"
+            ></i>
+            <hr class="m-5" />
+          </div>
+          <div class="testimonial">
+            <h6 class="fancy-font text-center p-3">Sarah Williams</h6>
+            <p class="text-center">
+              "I was skeptical at first, but [Your Name] exceeded my
+              expectations. They have a warm and compassionate demeanor, making
+              the session comfortable and enlightening."
+            </p>
+            <i
+              class="fa-brands fa-pagelines ps-4 pe-3 d-flex justify-content-center mt-5"
+              style="color: #1f5122"
+            ></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--TESTIMONIAL-->
+    <!--FOOTER-->
+    <footer
+      class="sticky-md-bottom card text-center rounded-0 container-fluid border-0 shadow-lg"
+    >
+      <div class="card-body">
+        <div class="m-3">
+          <h5 class="card-title fancy-font">Connectez-vous avec Danielle</h5>
+        </div>
+        <div class="m-3">
+          <a
+            type="button"
+            class="btn btn-outline-secondary border-0 shadow"
+            href="https://www.facebook.com"
+            target="_blank"
+          >
+            <i class="fa-brands fa-facebook" style="color: #1f5122"></i>
+          </a>
+          <a
+            type="button"
+            class="btn btn-outline-secondary border-0 shadow"
+            href="https://www.facebook.com"
+            target="_blank"
+          >
+            <i class="fa-brands fa-youtube" style="color: #1f5122"></i>
+          </a>
+          <a
+            type="button"
+            class="btn btn-outline-secondary border-0 shadow"
+            href="https://www.facebook.com"
+            target="_blank"
+          >
+            <i class="fa-brands fa-tiktok" style="color: #1f5122"></i>
+          </a>
+          <a
+            type="button"
+            class="btn btn-outline-secondary border-0 shadow"
+            href="https://www.facebook.com"
+            target="_blank"
+          >
+            <i class="fa-brands fa-twitter" style="color: #1f5122"></i>
+          </a>
+        </div>
+
+        <div class="container-fluid mt-4 mb-3" style="width: 100%">
+          <p class="card-text">
+            <i
+              class="fa-brands fa-pagelines fa-beat-fade pe-2"
+              style="color: #1f5122"
+            >
+            </i>
+            <a href="mailto:thiscouldbe@realemail.com" class="email-link">
+              thiscouldbe@realemail.com
+            </a>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!--FOOTER-->
+  </body>
 </html>
