@@ -5,6 +5,13 @@ body {
   padding-top: 60px;
   padding-bottom: 250px;
 }
+@media (max-width: 576px) {
+  .card {
+    max-width: 100%;
+    background-image: none;
+  }
+}
+
 .fancy-font {
   font-family: "Dancing Script", cursive;
   font-size: 25px;
@@ -30,6 +37,9 @@ body {
 }
 .custom-tooltip {
   --bs-tooltip-bg: var(--primary-color);
+}
+.text-container {
+  margin-bottom: 1.5em;
 }
 #background-1 {
   background-image: url("images/close-up-leaf.jpg");
